@@ -126,6 +126,9 @@
     </div>
 </template>
 
+
+
+
 <script>
 import Pagination from '@/components/pagination'
 export default {
