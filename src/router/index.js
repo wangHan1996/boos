@@ -5,7 +5,7 @@ import Login from '@/views/Login'
 
 // 设备列表
 import EquipmentList from '@/views/equipment/list'
-// 设备详情
+// 设备详情 yes
 import EquipmentDetails from '@/views/equipment/details'
 // 设备地图
 import EquipmentMap from '@/views/equipment/map'
@@ -158,6 +158,7 @@ export default new Router({
         {
           path: '/aboutUs',
           name: 'aboutUs',
+          
           component: AboutUs,
           meta: {
             requireAuth: true
