@@ -158,7 +158,7 @@ export default new Router({
         {
           path: '/aboutUs',
           name: 'aboutUs',
-          
+
           component: AboutUs,
           meta: {
             requireAuth: true
